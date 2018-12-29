@@ -1,0 +1,31 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "rm -rf dist && babel src -d dist",
+    "start-dev": "node dist/index.js",
+    "dev": "npm run build-dev && npm run start-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ironman9967/rtc-remix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ironman9967/rtc-remix/issues"
+  },
+  "homepage": "https://github.com/ironman9967/rtc-remix#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0"
+  },
+  "dependencies": {
+    "async": "^2.6.1"
+  }
+}
